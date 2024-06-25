@@ -1,0 +1,103 @@
+/* Estilos para o corpo e cabeçalho */
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Estilos para a tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border: 2px solid #000;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para botões */
+.btn {
+    padding: 8px 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* Estilos específicos para o formulário e botões adicionais */
+.form-buttons {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.form-buttons .btn {
+    margin-left: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
